@@ -5,3 +5,8 @@ h1 {
 em{
     font-style : italic;
 }
+
+.q1{
+    font-size:25px;
+    color:red;
+}
