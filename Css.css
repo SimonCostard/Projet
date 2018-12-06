@@ -14,7 +14,6 @@ em{
     font-size: 30px;
     color:red;
     text-decoration: underline;
-
 }
 
 .q2{
@@ -26,20 +25,25 @@ em{
 
 .q3{
     color: darkgreen;
+    font-weight: 800;
 }
 
 .q4{
     color: green;
+    font-weight: 800;
 }
 
 .q5{
     color: rgb(255, 145, 0);
+    font-weight: 800;
 }
 
 .q6{
     color: rgb(114, 43, 2);
+    font-weight: 800;
 }
 
 .q7{
     color: red;
+    font-weight: 800;
 }
