@@ -1,6 +1,7 @@
 h1 {
+
     color: rgba(68, 211, 25, 0.733);
-    font-size:55px;
+    font-size: 55px;
     margin-bottom: -2px;
     text-decoration: underline;}
 
@@ -9,11 +10,17 @@ em{
 }
 
 .q1{
-    font-size:25px;
+    font-weight: 800;
+    font-size: 30px;
     color:red;
+    text-decoration: underline;
+
 }
 
 .q2{
-    font-size:25px;
-    color: rgb(131, 3, 3)
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(131, 3, 3);
+    text-decoration: underline;
+
 }
