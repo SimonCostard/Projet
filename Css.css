@@ -15,5 +15,25 @@ em{
 
 .q2{
     font-size:25px;
-    color: rgb(131, 3, 3)
+    color: rgb(131, 3, 3);
+}
+
+.q3{
+    color: darkgreen;
+}
+
+.q4{
+    color: green;
+}
+
+.q5{
+    color: rgb(255, 145, 0);
+}
+
+.q6{
+    color: rgb(114, 43, 2);
+}
+
+.q7{
+    color: red;
 }
