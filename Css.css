@@ -1,6 +1,6 @@
 h1 {
 
-    color: rgba(68, 211, 25, 0.733);
+    color: rgba(3, 151, 15, 0.555);
     font-size: 55px;
     margin-bottom: -2px;
     text-decoration: underline;}
@@ -12,7 +12,7 @@ em{
 .q1{
     font-weight: 800;
     font-size: 30px;
-    color:red;
+    color:rgba(255, 0, 0, 0.623);
     text-decoration: underline;
 }
 
@@ -46,4 +46,7 @@ em{
 .q7{
     color: red;
     font-weight: 900;
+}
+body{
+    background-color: rgba(151, 182, 223, 0.815);
 }
