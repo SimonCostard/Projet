@@ -1,12 +1,16 @@
 h1 {
 
-    color: rgba(3, 151, 15, 0.555);
+    color: rgb(2, 182, 17);
     font-size: 55px;
     margin-bottom: -2px;
     text-decoration: underline;}
 
 em{
     font-style : italic;
+}
+
+p{
+    margin-bottom: -7px;
 }
 
 .q1{
@@ -48,9 +52,10 @@ em{
     font-weight: 900;
 }
 body{
-    background-color: rgba(153, 211, 221, 0.815);
+    background-color: rgba(116, 180, 199, 0.699);
 }
 h4{
-    color: rgba(255, 81, 0, 0.911);
+    color: rgb(240, 99, 17);
+    margin-bottom: -10px;
     font-size: 25px;
 }
