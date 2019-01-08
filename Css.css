@@ -39,13 +39,13 @@ p{
 }
 
 .q3{
-    color: darkgreen;
+    color:darkgreen;
     font-weight: 900;
 }
 
 .q4{
     color: green;
-    font-weight: 900;
+    font-weight: 900; 
 }
 
 .q5{
@@ -54,23 +54,24 @@ p{
 }
 
 .q6{
-    color: rgb(114, 43, 2);
+    color:rgb(114, 43, 2);
     font-weight: 900;
 }
 
-.q7{
-    color: red;
+.q7{ 
+    color:red;
     font-weight: 900;
+}
+
+
+body{
+    background-color: rgba(116, 180, 199, 0.699);
 }
 
 .pie{
     width: 150px; height: 150px;
     border-radius: 50%;
-    background: conic-gradient(rgb(255, 0, 0) 20%, rgb(170, 255, 0) 0);
+    background: conic-gradient(red 22%,rgb(114, 43, 2) 18%, green 32%,darkgreen 8%, rgb(219, 109, 6));
     margin-left: 25%;
-    
-}
 
-body{
-    background-color: rgba(116, 180, 199, 0.699);
 }
