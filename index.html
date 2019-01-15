@@ -4,6 +4,9 @@
         <title>Les jeune et leur téléphone : Sondage.</title>
 
         <link rel="stylesheet" type="text/css" href="Css.css">
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ 
     </head>
     <body>
             <!--Introduction-->
@@ -25,6 +28,38 @@
             <li class="q6">1</li>
             <li class="q7">0</li>
          </ul>
+
+
+<!-- premier chart -->
+         <div id="piechart1"></div>
+          
+         
+         <script type="text/javascript">
+         // Load google charts
+         google.charts.load('current', {'packages':['corechart']});
+         google.charts.setOnLoadCallback(drawChart);
+         
+         // Draw the chart and set the chart values
+         function drawChart() {
+           var data = google.visualization.arrayToDataTable([
+           ['Task', 'Hours per Day'],
+           ['Work', 4],
+           ['Eat', 6],
+           ['TV', 4],
+           ['Gym', 2],
+           ['Sleep', 8]
+         ]);
+         
+           // Optional; add a title and set the width and height of the chart
+           var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+         
+           // Display the chart inside the <div> element with id="piechart"
+           var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+           chart.draw(data, options);
+         }
+         </script>
+<!-- fin chart -->
+
 
         <div class="pie" class="q9"></div>
         <h2>Rem:</h2>
@@ -138,6 +173,10 @@
     <p>Nous voulions remercier d'abord ceux qui ont pris de leur temps pour répondre a notre sondage ainsi que vous qui avez pris la peine de lire.
      </br> Merci également à Mr Simon pour nous avoir permis de réaliser notre projet! 
      </br> Simon et Matthéo.</p>
+
+
+
+
 
     </body>
 </html>
