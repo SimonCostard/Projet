@@ -1,3 +1,14 @@
+.header {
+
+    background-image: url('https://cdn-media.rtl.fr/cache/I4RrsnaeJy5q5fmXfNQbWQ/880v587-0/online/image/2016/0204/7781697989_des-smartphones-illustration.jpg') ;
+    background-size: 100%;
+    height:450px;
+    font-size:100px;
+    color:orangered;
+}
+
+
+
 h1{
 
     color: rgb(2, 182, 17);
