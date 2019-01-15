@@ -49,41 +49,10 @@ p{
     text-decoration: underline;
 }
 
-.q3{
-    color:darkgreen;
-    font-weight: 900;
-}
-
-.q4{
-    color: green;
-    font-weight: 900; 
-}
-
-.q5{
-    color: rgb(219, 109, 6);
-    font-weight: 900;
-}
-
-.q6{
-    color:rgb(114, 43, 2);
-    font-weight: 900;
-}
-
-.q7{ 
-    color:red;
-    font-weight: 900;
-}
 
 
 body{
     background-color: rgba(116, 180, 199, 0.699);
 }
 
-.pie{
-    width: 150px; height: 150px;
-    border-radius: 50%;
-    margin-left: 25%;
-    background: conic-gradient(red 22%,rgb(114, 43, 2) 18%, green 32%,darkgreen 8%, rgb(219, 109, 6));
-
-}
 
