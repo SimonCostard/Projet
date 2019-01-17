@@ -4,47 +4,118 @@
         <title>Les jeune et leur téléphone : Sondage.</title>
         <link rel="stylesheet" type="text/css" href="Css.css">  
 
+<<<<<<< HEAD
+=======
+        <link rel="stylesheet" type="text/css" href="Css.css">
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ 
+>>>>>>> master
     </head>
     <body>
-            <!--Introduction-->
+        <div class="header"> Les jeunes <br>et leur téléphone</div>
+
+        
+        
+        
+        <!--Introduction-->
         <h1>A propos</h1>
         <p>Ce sondage a été posé à <em>50</em> personnes (<em>25</em> filles et <em>25</em> garçons) nés entre <em>2002 et 2003</em>.</p>
         <p>Il est tourné vers des questions se rapportant à ce que les jeunes font sur leur téléphone
             ainsi que le style d'applications utilisées au quotidien. Pour finir nous leur avons 
             égalemment posé quelques questions sur l'informatique.
+<<<<<<< HEAD
         <p>Les résultats ont éte calculés en pourcentage puis mis sous forme graphique pour une meilleure lisibilité. </p>
+=======
+        <p>Les résultats ont été calculé en pourcentage puis mis sous forme graphique pour une meilleur lisibilité. </p>
+>>>>>>> master
 
             </p>
         <div class="q1">Question 1</div>
         <h3>Combien de recherches fais-tu sur google, écosia, qwant,... par jour?</h3>
 
-         <ul>
-            <li class="q3">3+</li>
-            <li class="q4">3</li>
-            <li class="q5">2</li>      
-            <li class="q6">1</li>
-            <li class="q7">0</li>
-         </ul>
 
-        <div class="pie"></div>
+
+
+<!-- 1er chart -->
+         <div id="piechart1"></div>
+          
+         
+         <script type="text/javascript">
+         // Load google charts
+         google.charts.load('current', {'packages':['corechart']});
+         google.charts.setOnLoadCallback(drawChart);
+         
+         // Draw the chart and set the chart values
+         function drawChart() {
+           var data = google.visualization.arrayToDataTable([
+           ['0', 'Hours per Day'],
+           ['+3', 0],
+           ['3', 3],
+           ['2', 3],
+           ['1', 1],
+           ['0', 1],
+         ]);
+         
+           // Optional; add a title and set the width and height of the chart
+           var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+         
+           // Display the chart inside the <div> element with id="piechart"
+           var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+           chart.draw(data, options);
+         }
+         </script>
+<!-- fin chart 1 -->
+
+
+       
         <h2>Rem:</h2>
 
+<<<<<<< HEAD
         <!--Faudra inseré un graphique lorsque j'aurai les résultats-->
+=======
+>>>>>>> master
         <!--Faire un commentaire-->
         
         <div class="q1">Question 2</div>
         <h3>Sur combien de jeux vas-tu par jour?</h3>
         <!--Faire idem que a q1-->
 
-            <ul>    
-                <li class="q3">3+</li>
-                <li class="q4">3</li>
-                <li class="q5">2</li>
-                <li class="q6">1</li>
-                <li class="q7">0</li>
-            </ul>
 
-        <div class="pie"></div>
+
+<!-- 2e chart -->
+<div id="piechart2"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['+3', 0],
+  ['3', 0],
+  ['2', 0],
+  ['1', 6],
+  ['0', 2],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 2-->
+
+
+
+
         <h2>Rem:</h2>
 
 
@@ -52,19 +123,45 @@
         <h3>Sur combien de réseaux sociaux vas-tu par jour?</h3>
         <!--Graphique-->
 
-            <ul>    
-                <li class="q3">3+</li>
-                <li class="q4">3</li>
-                <li class="q5">2</li>
-                <li class="q6">1</li>
-                <li class="q7">0</li>
-            </ul>
 
-        <div class="pie"></div>
+
+<!-- 3e chart -->
+<div id="piechart3"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['+3', 6],
+  ['3', 1],
+  ['2', 0],
+  ['1', 1],
+  ['0', 0],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart3'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 3-->
+
+
+
         <h2>Rem:</h2>
 
 
         <div class="q1">Question 4</div>
+<<<<<<< HEAD
         <h3>Combien de temps passes-tu sur ton téléphone par jour?<br> Et qu'est-ce que tu y fais habituellement?</h3>
         
             <ul>    
@@ -77,68 +174,217 @@
             <INPUT type='text' name='m'>
 
         <div class="pie"></div>
+=======
+        <h3>Combien de temps passes-tu sur ton téléphone par jour?</h3>
+        
+
+<!-- 4e chart -->
+<div id="piechart4"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['+2h', 4],
+  ['2h', 2],
+  ['1h30', 1],
+  ['1h', 1],
+  ['30 min', 0],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart4'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 4-->
+
+
+
+
+
+>>>>>>> master
         <h2>Rem:</h2>
 
 
         <div class="q1">Question 5</div>
         <h3>Combien de jours saurais-tu passer sans ton téléphone?</h3>
         
-            <ul>    
-                <li class="q3">8+</li>
-                <li class="q4">6-8</li>
-                <li class="q5">3-5</li>
-                <li class="q6">1-2</li>
-                <li class="q7">0!</li>
-            </ul>
 
-        <div class="pie"></div>
+
+
+        <!-- 5e chart -->
+<div id="piechart5"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['10 et +', 1],
+  ['8', 0],
+  ['5', 4],
+  ['2', 3],
+  ['0', 0],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart5'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 5-->
+
+
         <h2>Rem:</h2>
 
 
         <div class="q2">Question 6</div>
         <h3>Connais-tu ou vois-tu ce qu'est le langage html?</h3>
 
-            <ul>
-                <li class="q3">Oui</li>
-                <li class="q7">Non</li>
-            </ul>
 
-        <div class="pie"></div>
+
+<!-- 6e chart -->
+<div id="piechart6"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['oui', 2],
+  ['non', 6],
+
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart6'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 6-->
+
+
+
         <h2>Rem:</h2>
 
-
         <div class="q2">Question 7</div>
-        <h3>Comment juges-tu l'imporatnce de l'informatique à l'école?</h3>
+        <h3>Comment juges-tu l'imporatnce d'un cours d'informatique à l'école sur une échelle de 1 à 5 ?</h3>
         <!--Vérifier l'orthographe-->
 
-            <ul>
-                <li class="q3">5</li>
-                <li class="q4">4</li>
-                <li class="q5">3</li>
-                <li class="q6">2</li>
-                <li class="q7">1</li>
-            </ul>
 
-        <div class="pie"></div>
+
+<!-- 7e chart -->
+<div id="piechart7"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['5', 1],
+  ['4', 3],
+  ['3', 1],
+  ['2', 3],
+  ['1', 0],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart7'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 7-->
+
+
+
         <h2>Rem:</h2>
 
 
         <div class="q2">Question 8</div>
         <h3>Aimerais-tu avoir 2 heures ou plus d'informatique obligatoires dans ton horaire?</h3>
         
-            <ul>
-                <li class="q3">Oui</li>
-                <li class="q7">Non</li>
-            </ul>
-            
-        <div class="pie"></div>
+
+            <!-- 8e chart -->
+<div id="piechart8"></div>
+          
+         
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['0', 'Hours per Day'],
+  ['oui', 5],
+  ['non', 3],
+
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'width':550, 'height':400, backgroundColor: 'transparent'}; 
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart8'));
+  chart.draw(data, options);
+}
+</script>
+<!-- fin chart 8-->
+
+
+
+
         <h2>Rem:</h2>
 
 
+<<<<<<< HEAD
     <h4>Remerciements</h4>
     <p>Nous voulions remercier d'abord ceux qui ont pris de leur temps pour répondre à notre sondage ainsi que vous qui avez pris la peine de lire.
+=======
+    <h4>Remerciement:</h4>
+    <p>Nous voulions remercier d'abord ceux qui ont pris de leur temps pour répondre a notre sondage ainsi que vous qui avez pris la peine de lire.
+>>>>>>> master
      </br> Merci également à Mr Simon pour nous avoir permis de réaliser notre projet! 
      </br> Simon et Matthéo.</p>
+
+
+
+
 
     </body>
 </html>
