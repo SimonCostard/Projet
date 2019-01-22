@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Les jeune et leur téléphone : Sondage.</title>
+        <link rel="stylesheet" type="text/css" href="Css.css">  
+
 
         <link rel="stylesheet" type="text/css" href="Css.css">
 
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
  
+
     </head>
     <body>
         <div class="header"> Les jeunes <br>et leur téléphone</div>
@@ -16,13 +19,18 @@
         
         <!--Introduction-->
         <h1>A propos</h1>
-        <p>Ce sondage à été posé a <em>50</em> personnes (<em>25</em> filles et <em>25</em> garçons) nés entre <em>2002 et 2003</em>. </p>
-        <p>Il est tourné vers des questions se rapportant à ce que les jeunes font sur leur téléphone
-            ainsi que le style d'applications utilisées au quotidien. Pour finir nous leur avons 
-            égalemment posé quelques questions sur l'informatique.
-        <p>Les résultats ont été calculé en pourcentage puis mis sous forme graphique pour une meilleur lisibilité. </p>
+        <p>Ce sondage a été posé à <em>50</em> personnes (<em>25</em> filles et <em>25</em> garçons) nés entre <em>2002 et 2003</em>.<br>
+           Il est tourné vers des questions se rapportant à ce que les jeunes font sur leur téléphone
+            ainsi que le style d'applications utilisées au quotidien.<br>
+             Pour finir nous leur avons égalemment posé quelques questions sur l'informatique.<br>
+             Les résultats ont étés calculés en pourcentage puis mis sous forme graphique pour une meilleure lisibilité.<br>
+             De plus pour chaque sondage nous avons émis notre estimation sur la proposition qui nous semblait la plus probable afin de comparer avec le graphique.</p>
+            
+
+        
 
             </p>
+
         <div class="q1">Question 1</div>
         <h3>Combien de recherches fais-tu sur google, écosia, qwant,... par jour?</h3>
 
@@ -42,11 +50,11 @@
          function drawChart() {
            var data = google.visualization.arrayToDataTable([
            ['0', 'Hours per Day'],
-           ['+3', 10],
-           ['3', 10],
-           ['2', 10],
-           ['1', 10],
-           ['0', 10]
+           ['+3', 12],
+           ['3', 7],
+           ['2', 8],
+           ['1', 2],
+           ['0', 2],
          ]);
          
            // Optional; add a title and set the width and height of the chart
@@ -60,8 +68,13 @@
 <!-- fin chart 1 -->
 
 
-       
+        <h2>Notre estimation: 3</h2>      
         <h2>Rem:</h2>
+
+
+
+        <!--Faudra inseré un graphique lorsque j'aurai les résultats-->
+
 
         <!--Faire un commentaire-->
         
@@ -84,11 +97,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['+3', 10],
-  ['3', 10],
-  ['2', 10],
-  ['1', 10],
-  ['0', 10]
+  ['+3', 2],
+  ['3', 3],
+  ['2', 7],
+  ['1', 12],
+  ['0', 7],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -103,9 +116,8 @@ function drawChart() {
 
 
 
-
+        <h2>Notre estimation: 1</h2>
         <h2>Rem:</h2>
-
 
         <div class="q1">Question 3</div>
         <h3>Sur combien de réseaux sociaux vas-tu par jour?</h3>
@@ -126,11 +138,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['+3', 10],
-  ['3', 10],
-  ['2', 10],
-  ['1', 10],
-  ['0', 10]
+  ['+3', 17],
+  ['3', 11],
+  ['2', 3],
+  ['1', 0],
+  ['0', 0],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -144,12 +156,12 @@ function drawChart() {
 <!-- fin chart 3-->
 
 
-
+        <h2>Notre estimation: +3</h2>
         <h2>Rem:</h2>
-
+        
 
         <div class="q1">Question 4</div>
-        <h3>Combien de temps passes-tu sur ton téléphone par jour?<br> Et qu'est-ce que tu y fais habituellement?</h3>
+        <h3>Combien de temps passes-tu sur ton téléphone par jour?</h3>
         
 
 <!-- 4e chart -->
@@ -165,11 +177,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['+2h', 10],
-  ['2h', 10],
-  ['1h30', 10],
-  ['1h', 10],
-  ['30 min', 10]
+  ['+2h', 21],
+  ['2h', 2],
+  ['1h30', 5],
+  ['1h', 3],
+  ['30 min', 0],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -186,8 +198,8 @@ function drawChart() {
 
 
 
+        <h2>Notre estimation: +2h</h2>
         <h2>Rem:</h2>
-
 
         <div class="q1">Question 5</div>
         <h3>Combien de jours saurais-tu passer sans ton téléphone?</h3>
@@ -208,11 +220,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['+3', 10],
-  ['3', 10],
-  ['2', 10],
-  ['1', 10],
-  ['0', 10]
+  ['10 et +', 11],
+  ['8', 1],
+  ['5', 7],
+  ['2', 7],
+  ['0', 5],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -225,12 +237,12 @@ function drawChart() {
 </script>
 <!-- fin chart 5-->
 
-
+        <h2>Notre estimation: 2</h2>
         <h2>Rem:</h2>
-
+        
 
         <div class="q2">Question 6</div>
-        <h3>Connais-tu ou vois-tu ce qu'est le langage Html?</h3>
+        <h3>Connais-tu ou vois-tu ce qu'est le langage html?</h3>
 
 
 
@@ -247,8 +259,8 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['oui', 10],
-  ['non', 10],
+  ['oui', 14],
+  ['non', 17],
 
 ]);
 
@@ -263,11 +275,11 @@ function drawChart() {
 <!-- fin chart 6-->
 
 
-
+        <h2>Notre estimation: Non</h2>
         <h2>Rem:</h2>
 
         <div class="q2">Question 7</div>
-        <h3>Comment juges-tu l'imporatnce de l'informatique à l'école sur une échelle de 1 à 5 ?</h3>
+        <h3>Comment juges-tu l'imporatnce d'un cours d'informatique à l'école sur une échelle de 1 à 5 ?</h3>
         <!--Vérifier l'orthographe-->
 
 
@@ -285,11 +297,11 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['5', 10],
-  ['4', 10],
-  ['3', 10],
-  ['2', 10],
-  ['1', 10]
+  ['5', 5],
+  ['4', 16],
+  ['3', 4],
+  ['2', 5],
+  ['1', 1],
 ]);
 
   // Optional; add a title and set the width and height of the chart
@@ -303,12 +315,12 @@ function drawChart() {
 <!-- fin chart 7-->
 
 
-
+        <h2>Notre estimation: 4</h2>
         <h2>Rem:</h2>
 
 
         <div class="q2">Question 8</div>
-        <h3>Aimerais-tu avoir 2 heures ou plus d'informatique obligatoire dans ton horraire?</h3>
+        <h3>Aimerais-tu avoir 2 heures ou plus d'informatique obligatoires dans ton horaire?</h3>
         
 
             <!-- 8e chart -->
@@ -324,8 +336,8 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['0', 'Hours per Day'],
-  ['oui', 10],
-  ['non', 10],
+  ['oui', 23],
+  ['non', 8],
 
 ]);
 
@@ -341,12 +353,14 @@ function drawChart() {
 
 
 
-
+        <h2>Notre estimation: Oui</h2>
         <h2>Rem:</h2>
+
 
 
     <h4>Remerciement:</h4>
     <p>Nous voulions remercier d'abord ceux qui ont pris de leur temps pour répondre a notre sondage ainsi que vous qui avez pris la peine de lire.
+
      </br> Merci également à Mr Simon pour nous avoir permis de réaliser notre projet! 
      </br> Simon et Matthéo.</p>
 
