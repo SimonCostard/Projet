@@ -50,7 +50,10 @@ p{
     color: rgb(131, 3, 3);
     text-decoration: underline;
 }
-
+.q3{
+    color: rgb(0, 177, 0);
+    font-size: 30px;
+}
 
 body{
     background-color: rgba(116, 180, 199, 0.699);
